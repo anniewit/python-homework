@@ -39,8 +39,6 @@ print('\nResult for your regular expression 5:')
 
 regex5 = r'^<SPEAKER>CLEOPATRA</SPEAKER>$'
 
-# Here goes your python code
-
 def count_speaker(regex5):
     #shakespeareRawText = open('shakespeare.txt','r')
     with open('shakespeare.txt', 'r') as myfile:
