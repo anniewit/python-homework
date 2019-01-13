@@ -14,17 +14,17 @@ control.initialize(exp)
 
 exp.keyboard.set_quit_key(113)
 
-# put this after initializing the experiment
+# create block after initializing the experiment
 block_one = design.Block(name="Our only block")
 tmp_trial = design.Trial()
 
-#makes the cross
+# set up fixation cross
 cross = stimuli.FixCross(colour=(0,0,0))
 cross.preload()
 cross = stimuli.FixCross()
 cross.preload()
 
-# stimulus positions
+# set up stimulus positions
 pos = {1: (4.5, 128, 64), 2: (2.5, 200, 200),
     3: (5, -256, -192), 4: (1, 256, -350),
     5: (5, -200, 200), 6: (2.25, -128, 350),
