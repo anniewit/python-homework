@@ -12,4 +12,4 @@ extract POS tags from a previously parsed newspaper article
 executes a psychological experiment that presents stimuli and measures reaction times
 
 ### hangman.py
-play hangman with a given list of words
+1-player terminal game to guess letters from a given list of words
