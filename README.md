@@ -11,5 +11,8 @@ extract POS tags from a previously parsed newspaper article
 ### psych_experiment.py
 executes a psychological experiment that presents stimuli and measures reaction times
 
+### battle.py knights.py
+2-player terminal game that creates objects 'knights' and lets them battle
+
 ### hangman.py
 1-player terminal game to guess letters from a given list of words
